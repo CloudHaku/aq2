@@ -1,0 +1,23 @@
+{
+    "name": "水族館2代",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "builder": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "2.0.30",
+        "targetId": "minecraft"
+    },
+    "supportedTargets": [
+        "minecraft"
+    ]
+}
