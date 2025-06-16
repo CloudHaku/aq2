@@ -163,13 +163,17 @@ player.onChat("Aq", function () {
         builder.teleportToOrigin()
     }
 })
-let 通道寬 = 0
 let 高度 = 0
 let 縱深 = 0
 let 橫寬 = 0
+let 通道寬 = 0
 let 方向: CompassDirection = null
 let 中心: Position = null
 中心 = player.position()
 方向 = positions.toCompassDirection(player.getOrientation())
 agent.teleportToPlayer()
 player.say(agent.getOrientation())
+通道寬 = 1
+橫寬 = 4
+縱深 = 3
+高度 = 5
